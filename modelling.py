@@ -179,19 +179,3 @@ if __name__ == '__main__':
             save_model
         ]
     )
-
-    # # fit one additional cycle
-    # learn.fit_one_cycle(
-    #     cyc_len=2,
-    #     max_lr=LEARNING_RATE / DIV_FACTOR,
-    #     div_factor=DIV_FACTOR,
-    #     pct_start=0.0,
-    #     annealing_func=ANNEALING,
-    #     start_epoch=START_EPOCH,
-    #     callbacks=[
-    #         acc_grad,
-    #         csv_logger,
-    #         early_stopping,
-    #         save_model
-    #     ]
-    # )
