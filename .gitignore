@@ -1,0 +1,12 @@
+RawData/
+Data/
+FittedModels/
+Submissions/
+.idea/
+temp2.py
+AWSKeys/
+Utils/__pycache__/
+sync_batchnorm/__pycache__/
+Architectures/__pycache__/
+AWSServerConnection/
+PredictModels/
